@@ -10,7 +10,7 @@ const toHTML = require('./mocha/toHTML');
  * @function run
  * @param {string|string[]} code - The a string or array of strings containing code snippets or a file path.
  * @param {string|{library: string}} [options="chai"] - The testing library to use.
- * @return {Promise<object>} An object containing the results of the test.
+ * @return {Promise<{data: Object, summary: Object}>} An object containing the results of the test.
  */
 async function run(code, options) {
   if (Array.isArray(code)) {
