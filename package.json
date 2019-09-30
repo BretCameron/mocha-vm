@@ -1,0 +1,41 @@
+{
+  "name": "mocha-vm",
+  "version": "1.2.0",
+  "description": "A package designed to test user-submitted JavaScript code with user-submitted tests (using Mocha and Chai). All user-submitted code is run in a vm2 sandbox environment.",
+  "keywords": [
+    "testing",
+    "sandbox",
+    "mocha",
+    "chai",
+    "assert",
+    "vm2",
+    "safe",
+    "user-submitted",
+    "string"
+  ],
+  "homepage": "https://github.com/BretCameron/mocha-vm",
+  "bugs": {
+    "url": "https://github.com/BretCameron/mocha-vm/issues",
+    "email": "bretcameron@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BretCameron/mocha-vm.git"
+  },
+  "author": "Bret Cameron <bretcameron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "vm2": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true
+}
