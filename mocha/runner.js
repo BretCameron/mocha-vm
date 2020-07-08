@@ -23,7 +23,7 @@ async function runTests(string, options) {
     const library = options.library ? options.library : options;
     switch (library) {
       case 'chai':
-        imports = imports + `const { should, expert, assert } = require('chai'); `;
+        imports = imports + `const { should, expect, assert } = require('chai'); `;
         break;
       case 'assert':
         imports = imports + `const assert = require('assert'); `; break;
@@ -32,7 +32,7 @@ async function runTests(string, options) {
         break;
     }
   } else {
-    imports = imports + `const { should, expert, assert } = require('chai'); `;
+    imports = imports + `const { should, expect, assert } = require('chai'); `;
   }
 
   if (Array.isArray(string)) string = string.join('; \n');
