@@ -31,8 +31,8 @@
   "license": "MIT",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
-    "vm2": "^3.8.3"
+    "mocha": "^6.2.3",
+    "vm2": "^3.9.2"
   },
   "engines": {
     "node": ">=6.0.0"
